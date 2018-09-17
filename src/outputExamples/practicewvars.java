@@ -8,6 +8,11 @@ public class practicewvars {
 			char choiceLetter;
 			double money;
 			boolean answer;
+			
+			age = 4;
+			System.out.println(age);
+			choiceLetter = 66;
+			System.out.println(choiceLetter);
 	}
 
 }
