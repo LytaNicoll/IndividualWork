@@ -6,7 +6,6 @@ public class newstuff {
 		// TODO Auto-generated method stub
 		int age = 0;
 		Scanner input=new Scanner(System.in);
-		nextInt(input);
 	}
 
 }
