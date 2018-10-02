@@ -5,4 +5,8 @@ public class Friend {
 	{
 		
 	}
+	public void compliment()
+	{
+		System.out.println("You are a great friend");
+	}
 }
