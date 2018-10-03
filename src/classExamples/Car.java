@@ -11,7 +11,7 @@ public class Car {
 		Scanner input=new Scanner(System.in);
 		System.out.println("How many miles did you go this drive?");
 		miles=input.nextInt();
-		System.out.println(miles+3000);
+		System.out.println(miles+8675309);
 	}
 	public void Drinks()
 	{
