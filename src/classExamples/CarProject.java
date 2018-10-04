@@ -10,6 +10,7 @@ public class CarProject {
 		kitchen=closet;
 		closet=basement;
 		closet.Wall();
+		closet.Room();
 		
 	
 		
