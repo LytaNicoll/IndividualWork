@@ -1,7 +1,7 @@
 package classExamples;
 
-public class Numbers {
-public Numbers(){
+public class House {
+public House(){
 	
 }
 public void sayNumber(double five){
