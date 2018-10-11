@@ -14,12 +14,15 @@ public class Phone {
 		spdial=444.4444444;
 		ltnumber=414.5559091;
 		emergnumber=911;
-		calls=500;
+		calls=397;
 		minutes=55.3;
 	}
 	public double myNumber(){
 			return phnumber;
 		}
+	public double speedDial(double newnum){
+		return spdial=newnum;
+	}
 	public double myNumber(double newnum){
 		return phnumber=newnum;
 	}
