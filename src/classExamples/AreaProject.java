@@ -5,7 +5,7 @@ public class AreaProject {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		Greeter jenny=new Greeter();
-		Car car=new Car();
+		CarIdent car=new CarIdent();
 		jenny.sayHello();
 		car.Drinks();
 		car.leak();
