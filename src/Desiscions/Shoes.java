@@ -1,18 +1,17 @@
 package Desiscions;
 import java.util.Scanner;
-public class Age {
+public class Shoes {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		int age=1;
+		int shoe=1;
+		int height=1;
 		System.out.println("How old are you?");
 		Scanner input=new Scanner(System.in);
-		age=input.nextInt();
-		System.out.println(age==16);
-		if( age<= 16){
-			System.out.println("You are too young");
-		}
-		
+		shoe=input.nextInt();
+		System.out.println("How tall are you?");
+		height=input.nextInt();
+		System.out.println((shoe+height)==26);
 	}
 
 }
