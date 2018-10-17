@@ -11,8 +11,13 @@ public class PetCars {
 		pet=input.nextInt();
 		System.out.println("How many cars do you have?");
 		cars=input.nextInt();
-		System.out.println(5>=pet||cars>=3);
-
+		if ((5<=pet||cars>=3)==true){
+			System.out.println("Wow!");
+		}
+		else{
+			System.out.println("You need more pets. They're good for you.");	
+		}
+		
 	}
 
 }
