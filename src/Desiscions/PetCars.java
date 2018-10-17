@@ -17,6 +17,7 @@ public class PetCars {
 		else{
 			System.out.println("You need more pets. They're good for you.");	
 		}
+		System.out.println("DundunDun");
 		
 	}
 
