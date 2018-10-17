@@ -4,23 +4,34 @@ public class Grades {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		double test1=1;
-		double test2=1;
-		double dif=1;
-		System.out.println("Score of test one?");
+		double num=1;
+		double num2=1;
+		double num3=1;
+		System.out.println("Number one?");
 		Scanner input=new Scanner(System.in);
-		test1=input.nextDouble();
-		System.out.println("Score of test two?");
-		test2=input.nextDouble();
-		if (test1>test2){
-			System.out.println("Wow!You enetered the tests in the right order!");
-			dif=test1-test2;
-			System.out.println("The scores are exactly "+ dif+ " points apart!");
+		num=input.nextDouble();
+		System.out.println("Number two?");
+		num2=input.nextDouble();
+		System.out.println("Number three?");
+		num3=input.nextDouble();
+		if (num>num2){
+			if(num>num3){
+				System.out.println(num);
+			}
 		}
 		else{
-			System.out.println("You dumdum");	
+			if(num2>num3){
+				System.out.println(num2);
+			}
+			else{
+				if(num==num2&&num2==num3){
+					System.out.println("Your numbers are all the same!");
+				}
+				else{
+				System.out.println(num3);
+				}
+			}
 		}
-		System.out.println("Have a nice day!");
 		
 	}
 
