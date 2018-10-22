@@ -10,7 +10,7 @@ public class SchoolGrades {
 		char up = 'y';
 		double num2 = 1;
 		System.out.println("What is your test average??");
-		Scanner input = new Scanner(System.in);
+		try(Scanner input = new Scanner(System.in)){
 		num = input.nextDouble();
 		System.out.println("What homework average??");
 		num2 = input.nextDouble();
@@ -32,5 +32,5 @@ public class SchoolGrades {
 		}
 
 	}
-
+}
 }
