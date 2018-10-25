@@ -1,13 +1,19 @@
 package Loop;
 
+import java.util.Scanner;
+
 public class Counter {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-
-for(int counter=0;counter<=9;counter++){
-	System.out.println((counter+1)+" Hello!");
-}
+		int j = 0;
+		Scanner input = new Scanner(System.in);
+		System.out.println("How high to count?");
+		j = input.nextInt();
+		if (j >= 0) {
+			for (int counter = 0; counter <= (j-1); counter = counter + 1) {
+				System.out.println((counter + 1));
+			}
+		}
 	}
-
 }
