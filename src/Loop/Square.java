@@ -8,7 +8,7 @@ public class Square {
 		// TODO Auto-generated method stub
 		for (int counter = 1; counter <= (5); counter++) {
 			for (int counter2 = 1; counter2 <= (5); counter2++) {
-				System.out.print((counter * counter2 + "   "));
+				System.out.print((1 * counter + "   "));
 			}System.out.println();
 		}
 	}
