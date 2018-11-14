@@ -14,8 +14,10 @@ public class Sentance3 {
 			System.out.println("The sentance is " + sentance.length() + " characters long.");
 			for (int count = 0; count < sentance.length(); count++) {
 				letter = sentance.charAt(count);
-				if(letter!='a'&&letter!=' '&&letter!='A'){
+				if(letter!='a'&&letter!=' '&&letter!='A'&&letter!='?'){
 				System.out.print(letter);
+				}if(letter=='?'){
+					System.out.print(".");
 				}
 			}
 		}
