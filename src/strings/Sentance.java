@@ -20,6 +20,7 @@ public class Sentance {
 				
 			}
 		}System.out.println(sentance.toLowerCase());
+		System.out.println(sentance.toUpperCase());
 		System.out.println(sentance);
 
 	}
