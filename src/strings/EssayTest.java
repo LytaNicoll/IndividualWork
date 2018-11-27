@@ -5,8 +5,8 @@ public class EssayTest {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 Essay bob=new Essay();
-bob.setName("Minie Crafter");
-bob.setEssay("Wolves are the best, Andrea!");
+bob.setName("Alexander Zandt");
+bob.setEssay("I will rule the twilight!");
 System.out.println(bob.getName());
 System.out.println(bob.getEssay());
 System.out.println("The author's last name is "+ bob.getLast());
