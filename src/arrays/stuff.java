@@ -21,7 +21,7 @@ public class stuff {
 		for (int i = 0; i < 7; i++) {
 			for (int j = 0; j < 3; j++) {
 				for (int k = 0; k < 9; k++) {
-					tot = tot + scores[i][j][k];
+					tot += scores[i][j][k];
 					total[i] = scores[i][j][k] + tot;
 				}
 			}
@@ -29,7 +29,7 @@ public class stuff {
 		for (int i = 0; i < 7; i++) {
 			t = total[i] + t;
 		}
-		System.out.println(t);
+		System.out.println(tot);
 
 	}
 }
