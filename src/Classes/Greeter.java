@@ -23,6 +23,14 @@ public class Greeter {
 			temp.setNum(4);
 			System.out.println("The new num is: "+temp.getNum());
 		}
+		System.out.println(sum(300));
 	}
+	public static int sum (int num){
+		if(num>=1){
+			return num +sum(num-1);
+		}
+		return 0;
+	}
+	
 
 }
