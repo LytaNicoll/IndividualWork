@@ -1,11 +1,11 @@
 package arrays;
 
 public class hi {
-	private double number;
-public hi(double newt){
+	private int number;
+public hi(int newt){
 	number=newt;
 }
-public double getHi(){
+public int getHi(){
 return number;
 }
 }

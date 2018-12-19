@@ -12,7 +12,7 @@ public class FEActivity2 {
 		ArrayList<hi> bob = new ArrayList<hi>();
 		for(int i=0;i<workers;i++){
 			System.out.println("Enter a wage");
-			hi blue=new hi(input.nextDouble());
+			hi blue=new hi(input.nextInt());
 			bob.add(blue);
 		}
 		
