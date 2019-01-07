@@ -1,6 +1,6 @@
 package interfaces;
 
-public class Student
+public class Student implements Common
 {
 	
 	String name;
