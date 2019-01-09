@@ -17,7 +17,7 @@ public static double summy(double newNum1,double newNum2){
 }
 public void setNum(int newT){
 	num=newT;
-	
+	  
 }
 public int getNum(){
 	return num;

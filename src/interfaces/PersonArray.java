@@ -18,6 +18,9 @@ public class PersonArray {
 			System.out.println("Please enter a name");
 			String jeff = input.nextLine();
 			Teacher joe = new Teacher();
+			if (joe.getName().charAt(0) < 89) {
+				joe.gender = true;
+			}
 			joe.setName(jeff);
 			bob.add(joe);
 		}
